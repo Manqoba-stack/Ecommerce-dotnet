@@ -1,2 +1,2 @@
 # trading_bot
-This is a bot that trades cryptocurrency
+This is an ecommerce web app

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/brilliant/Q1/Software Dev/My Git Projects/dotnet/ecommerce store/Store/API/API.csproj": {}
+    "/media/brilliant/Q1/Software Dev/Projects/Ecommerce-dotnet/ecommerce store/Store/API/API.csproj": {}
   },
   "projects": {
-    "/media/brilliant/Q1/Software Dev/My Git Projects/dotnet/ecommerce store/Store/API/API.csproj": {
+    "/media/brilliant/Q1/Software Dev/Projects/Ecommerce-dotnet/ecommerce store/Store/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/brilliant/Q1/Software Dev/My Git Projects/dotnet/ecommerce store/Store/API/API.csproj",
+        "projectUniqueName": "/media/brilliant/Q1/Software Dev/Projects/Ecommerce-dotnet/ecommerce store/Store/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/media/brilliant/Q1/Software Dev/My Git Projects/dotnet/ecommerce store/Store/API/API.csproj",
+        "projectPath": "/media/brilliant/Q1/Software Dev/Projects/Ecommerce-dotnet/ecommerce store/Store/API/API.csproj",
         "packagesPath": "/home/brilliant/.nuget/packages/",
-        "outputPath": "/media/brilliant/Q1/Software Dev/My Git Projects/dotnet/ecommerce store/Store/API/obj/",
+        "outputPath": "/media/brilliant/Q1/Software Dev/Projects/Ecommerce-dotnet/ecommerce store/Store/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/brilliant/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
